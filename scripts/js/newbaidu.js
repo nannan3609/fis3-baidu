@@ -1,0 +1,22 @@
+$('.arr').click(function(){
+	changeIcon($(this));
+	$('.ontop').toggle();
+	$('.one').toggle();
+	$('.two').toggle();
+	$('.three').toggle();
+	$('.four').toggle();
+	$('.five').toggle();
+	$('.six').toggle();
+	$('.seven').toggle();
+}
+);
+function changeIcon(mainNode){
+	if(mainNode){
+	if(mainNode.attr('src').indexOf('arrdown.jpg')>=0){
+	mainNode.attr('src','images/arrleft.jpg');
+	}
+	else{
+		mainNode.attr('src','images/arrdown.jpg');
+	}	
+}
+}

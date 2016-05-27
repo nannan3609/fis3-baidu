@@ -1,0 +1,602 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font: 12px arial;
+    overflow: hidden;
+    min-height: 600px;
+    min-width: 800px;
+    position: relative;
+    height: 100%;
+}
+
+.weatherlink {
+    width: 347px;
+    height: 13px;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*left: -873%;*/
+    float:left;
+}
+
+
+/*天气样式*/
+
+.onleft {
+    text-decoration: none;
+    color: #333;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+
+/*天气链接样式*/
+
+#weather {
+    width: 17px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/*天气图像样式*/
+
+#liang {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/*天气质量样式*/
+
+.week {
+    color: #38f;
+    text-decoration: none;
+}
+
+.week:hover {
+    text-decoration: underline;
+}
+
+
+/*未来七天天气*/
+
+.realwea {
+    display: inline-block;
+}
+
+.temp {
+    display: inline-block;
+}
+
+.wind {
+    display: inline-block;
+}
+
+.weel {
+    display: inline-block;
+    width: 19%;
+    float: left;
+}
+
+#childmenu1 {
+    width: 301px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: -10px;
+    background-color: white;
+    display: none;
+}
+
+#smweather:after {
+    content: "";
+    border: none;
+    border-left: 2px solid #666;
+    margin-left: 10px;
+}
+
+.bao {
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+    position: absolute;
+    left: 150px;
+    top: 1px;
+}
+
+.pifu {
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+    position: absolute;
+    left: 190px;
+    top: 1px;
+}
+
+.message {
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+    position: absolute;
+    left: 230px;
+    top: 1px;
+}
+
+.fivedays {
+    width: 300px;
+    height: 105px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.pic {
+    width: 270px;
+    height: 129px;
+    margin-left: -135px;
+    margin-top: 35px;
+}
+
+
+/*换肤*/
+
+.skin {
+    background-color: #ccc;
+    width: 590px;
+    display: none;
+}
+
+.skin li {
+    cursor: pointer;
+}
+
+.bigskin {
+    width: 195px;
+    height: 119px;
+    line-height: 119px;
+}
+
+.smskin {
+    width: 97px;
+    height: 59px;
+    line-height: 59px;
+    margin-right: 2.5px;
+}
+
+#normal {
+    width: 590px;
+    color: #38f;
+    position: absolute;
+    top: 6px;
+    left: 265px;
+}
+
+#up {
+    width: 590px;
+    color: #38f;
+    position: absolute;
+    top: 6px;
+    left: 333px;
+}
+
+#three {
+    position: absolute;
+    left: 98px;
+    top: 147px;
+}
+
+#four {
+    position: absolute;
+    left: 197px;
+    top: 25.5px;
+}
+
+#five {
+    position: absolute;
+    left: 197px;
+    top: 86px;
+}
+
+#six {
+    position: absolute;
+    left: 197px;
+    top: 147px;
+    z-index: 2;
+}
+
+#seven {
+    position: absolute;
+    left: 295px;
+    top: 25.5px;
+}
+
+#eight {
+    position: absolute;
+    left: 394px;
+    top: 25.5px;
+}
+
+#nine {
+    position: absolute;
+    left: 296px;
+    top: 87px;
+    z-index: 2;
+}
+
+#ten {
+    position: absolute;
+    left: 493px;
+    top: 25.5px;
+}
+
+#eleven {
+    position: absolute;
+    left: 493px;
+    top: 87px;
+}
+
+#twelve {
+    position: absolute;
+    left: 493px;
+    top: 147px;
+    z-index: 2;
+}
+
+
+/* baidu logo*/
+
+.onright {
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.onright:hover {
+    color: #00c;
+}
+
+.normal {
+    display: inline-block;
+    width: 347px;
+    height: 13px;
+    /*position: absolute;*/
+    /*left: -300%;*/
+    float:right;
+}
+
+
+/*链接样式*/
+
+#link {
+    width:100%;
+    position: absolute;
+    /*right: 5px;*/
+}
+
+.topline {
+    width: 60px;
+    height: 24px;
+    line-height: 23px;
+    background-color: #38f;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: 40px;
+}
+
+
+/*链接整体方位*/
+
+.more {
+    color: white;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.downnav {
+    position: relative;
+    top: 24px;
+    width: 100%;
+}
+
+
+/*更多产品*/
+
+.moreandmore {
+    /*display: inline-block;*/
+    width: 90px;
+    position: relative;
+    top: 20px;
+    float:right;
+}
+
+hr {
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    border-top: 0.5px solid #E8E8E8;
+    margin: auto;
+}
+
+.tabhr {
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    border-top: 0.5px solid #E8E8E8;
+}
+
+#childmenu {
+    display: none;
+    background-color: #F8F8F8;
+    padding: 0;
+    margin: 0;
+}
+
+.listyle {
+    text-decoration: none;
+    color: #666;
+}
+
+.listyle:hover {
+    text-decoration: underline;
+}
+
+.all {
+    text-decoration: underline;
+    color: #666;
+}
+
+.top {
+    margin-top: -20px;
+}
+
+.music {
+    width: 38px;
+    position: relative;
+    top: 10px;
+}
+
+.image {
+    width: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.zhidao {
+    width: 27px;
+    position: relative;
+    top: 10px;
+}
+
+.wenku {
+    width: 26px;
+    position: relative;
+    top: 10px;
+}
+
+.bang {
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.tuiguang {
+    width: 28px;
+    position: relative;
+    top: 10px;
+}
+
+.dip {
+    height: 200px;
+    background-color: #F8F8F8;
+}
+
+#baidu {
+    height: 129px;
+    margin-left: 50%;
+}
+
+.sskuang {
+    height: 36px;
+    width: 640px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+#sousuo {
+    box-sizing: border-box;
+    height: 34px;
+    width: 460px;
+    margin-left: -270px;
+    padding-left: 5px;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#sousuo:focus {
+    border: 1px solid #3385ff;
+}
+
+
+/*输入框*/
+
+.so {
+    width: 100px;
+    height: 34px;
+    color: white;
+    font-size: 15px;
+    background: #3385ff;
+    border: 0;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    cursor: pointer;
+    float: left;
+}
+
+.so:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+}
+
+
+/* 百度一下按钮*/
+
+#microphone {
+    position: absolute;
+    left: 120px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/mic.png?__sprite");
+    background-size: 25px 25px;
+    background-position: 0 50%;
+    cursor: pointer;
+}
+
+#microphone:hover {
+    background: url("../images/mic1.png?__sprite");
+    background-size: 25px 25px;
+    background-position: 0 50%;
+}
+
+#microphone::after {
+    content: " ";
+    display: inline-block;
+    height: 16px;
+    width: 0;
+    border-left: 1px solid #e7e7e7;
+    margin: 2px 0 10px 30px;
+}
+
+
+/*麦克风样式和变化以及后面的竖*/
+
+#camera {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 18px;
+    height: 16px;
+    background: #fff url("../images/camera.png?__sprite") no-repeat 0 0;
+}
+
+#camera:hover {
+    background-position: 0 -20px;
+}
+
+
+/* 相机的样式及变化*/
+
+.box {
+    width: 70%;
+    height: 260px;
+    margin: auto;
+    border: 1px solid #E8E8E8;
+    position: relative;
+    top: 120px;
+}
+
+.tab li {
+    float: left;
+    width: 50px;
+    height: 20px;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.tab li:hover {
+    background-color: #999;
+    color: white;
+}
+
+.tab .myfocus {
+    color: white;
+    position: relative;
+    top: -3px;
+}
+
+.tab .first {
+    width: 80px;
+    height: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.tab .tabin {
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+}
+
+.tab .tabin:hover {
+    background-color: #666;
+}
+
+.user {
+    margin-right: 5px;
+}
+
+.setting {
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    background-image: url("../images/setting1.png?__sprite");
+    background-size: cover;
+    position: relative;
+    top: 3px;
+    left: 55%;
+    cursor: pointer;
+}
+
+.setting:hover {
+    background-image: url("../images/setting.png?__sprite");
+    position: relative;
+    top: 3px;
+    left: 55.3%;
+}
+
+b {
+    color: #333;
+}
+
+span {
+    color: #999;
+    font-size: 10px;
+}
+
+.abbaidu {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    margin-left: -190.319px;
+}
+
+.down {
+    color: #999;
+}
+
+
+/*备注*/
