@@ -30,7 +30,6 @@ hr {
     top: -1px;
 }
 
-
 /*右链接样式*/
 
 td:hover {
@@ -40,7 +39,6 @@ td:hover {
 a {
     text-decoration: none;
 }
-
 
 /*链接设置*/
 
@@ -73,7 +71,6 @@ tr {
     top: 5px;
 }
 
-
 /*百度logo*/
 
 .sinaicon {
@@ -85,7 +82,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*新浪logo*/
 
@@ -99,7 +95,6 @@ tr {
     top: 5px;
 }
 
-
 /*搜狐logo*/
 
 .qqicon {
@@ -111,7 +106,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*腾讯logo*/
 
@@ -125,7 +119,6 @@ tr {
     top: 5px;
 }
 
-
 /*网易logo*/
 
 .youkuicon {
@@ -137,7 +130,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*优酷logo*/
 
@@ -151,7 +143,6 @@ tr {
     top: 5px;
 }
 
-
 /*天猫logo*/
 
 .ifengicon {
@@ -163,7 +154,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*凤凰logo*/
 
@@ -177,7 +167,6 @@ tr {
     top: 5px;
 }
 
-
 /*淘宝logo*/
 
 .gameicon {
@@ -185,11 +174,10 @@ tr {
     width: 17px;
     height: 18px;
     background-image: url("../images/gamei.png?__sprite");
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     position: relative;
     top: 5px;
 }
-
 
 /*小游戏logo*/
 
@@ -203,7 +191,6 @@ tr {
     top: 5px;
 }
 
-
 /*4399游戏logo*/
 
 .xinhuaicon {
@@ -214,7 +201,6 @@ tr {
     position: relative;
     top: 3px;
 }
-
 
 /*新华logo*/
 
@@ -227,7 +213,6 @@ tr {
     top: 5px;
 }
 
-
 /*京东logo*/
 
 .jhsicon {
@@ -239,7 +224,6 @@ tr {
     top: 5px;
 }
 
-
 /*聚划算logo*/
 
 .jrtjicon {
@@ -250,7 +234,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*今日特价logo*/
 
@@ -264,7 +247,6 @@ tr {
     top: 5px;
 }
 
-
 /*hao123影视logo*/
 
 .caricon {
@@ -276,7 +258,6 @@ tr {
     position: relative;
     top: 5px;
 }
-
 
 /*汽车之家logo*/
 
@@ -290,9 +271,7 @@ tr {
     top: 5px;
 }
 
-
 /*彩票开奖logo*/
-
 
 .one {
     position: relative;

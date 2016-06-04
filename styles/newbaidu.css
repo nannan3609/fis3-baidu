@@ -22,9 +22,8 @@ body {
     /*display: inline-block;*/
     /*position: absolute;*/
     /*left: -873%;*/
-    float:left;
+    float: left;
 }
-
 
 /*天气样式*/
 
@@ -34,7 +33,6 @@ body {
     line-height: 24px;
     font-size: 13px;
 }
-
 
 /*天气链接样式*/
 
@@ -47,14 +45,12 @@ body {
     margin-right: 5px;
 }
 
-
 /*天气图像样式*/
 
 #liang {
     margin-left: 5px;
     margin-right: 5px;
 }
-
 
 /*天气质量样式*/
 
@@ -66,7 +62,6 @@ body {
 .week:hover {
     text-decoration: underline;
 }
-
 
 /*未来七天天气*/
 
@@ -151,7 +146,6 @@ body {
     margin-top: 35px;
 }
 
-
 /*换肤*/
 
 .skin {
@@ -193,69 +187,68 @@ body {
     left: 333px;
 }
 
-#three {
+#skin3 {
     position: absolute;
     left: 98px;
     top: 147px;
 }
 
-#four {
+#skin4 {
     position: absolute;
     left: 197px;
     top: 25.5px;
 }
 
-#five {
+#skin5 {
     position: absolute;
     left: 197px;
     top: 86px;
 }
 
-#six {
+#skin6 {
     position: absolute;
     left: 197px;
     top: 147px;
     z-index: 2;
 }
 
-#seven {
+#skin7 {
     position: absolute;
     left: 295px;
     top: 25.5px;
 }
 
-#eight {
+#skin8 {
     position: absolute;
     left: 394px;
     top: 25.5px;
 }
 
-#nine {
+#skin9 {
     position: absolute;
     left: 296px;
     top: 87px;
     z-index: 2;
 }
 
-#ten {
+#skin10 {
     position: absolute;
     left: 493px;
     top: 25.5px;
 }
 
-#eleven {
+#skin11 {
     position: absolute;
     left: 493px;
     top: 87px;
 }
 
-#twelve {
+#skin12 {
     position: absolute;
     left: 493px;
     top: 147px;
     z-index: 2;
 }
-
 
 /* baidu logo*/
 
@@ -277,14 +270,13 @@ body {
     height: 13px;
     /*position: absolute;*/
     /*left: -300%;*/
-    float:right;
+    float: right;
 }
-
 
 /*链接样式*/
 
 #link {
-    width:100%;
+    width: 100%;
     position: absolute;
     /*right: 5px;*/
 }
@@ -298,7 +290,6 @@ body {
     margin-top: -5px;
     margin-left: 40px;
 }
-
 
 /*链接整体方位*/
 
@@ -318,7 +309,6 @@ li {
     width: 100%;
 }
 
-
 /*更多产品*/
 
 .moreandmore {
@@ -326,7 +316,7 @@ li {
     width: 90px;
     position: relative;
     top: 20px;
-    float:right;
+    float: right;
 }
 
 hr {
@@ -438,7 +428,6 @@ hr {
     border: 1px solid #3385ff;
 }
 
-
 /*输入框*/
 
 .so {
@@ -458,7 +447,6 @@ hr {
     background: #317ef3;
     border-bottom: 1px solid #2868c8;
 }
-
 
 /* 百度一下按钮*/
 
@@ -489,7 +477,6 @@ hr {
     margin: 2px 0 10px 30px;
 }
 
-
 /*麦克风样式和变化以及后面的竖*/
 
 #camera {
@@ -504,7 +491,6 @@ hr {
 #camera:hover {
     background-position: 0 -20px;
 }
-
 
 /* 相机的样式及变化*/
 
@@ -597,6 +583,5 @@ span {
 .down {
     color: #999;
 }
-
 
 /*备注*/
